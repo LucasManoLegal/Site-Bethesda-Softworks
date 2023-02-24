@@ -1,1 +1,1 @@
-# Site-Bethesda-Softworkskgvkygvkygvkgh
+Site informativo sobre a Bethesda Softworks (fins didáticos, criação site de marca)
