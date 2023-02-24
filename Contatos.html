@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+    body{
+    background-color: black;
+    padding: 0%;
+    }
+    h1{
+        color: white;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        padding: 8px;
+    }
+    .imagens{
+        display: flex;
+        flex-direction: row;
+        justify-content: left;
+        align-items: center;
+        margin-top: 8px;
+        gap: 8px;
+        background-color: rgba(88, 99, 88, 0.763);
+        border: 2px solid  gray;
+    }
+    img{
+        width: 70px;
+        height: 70px;
+    }
+    h4{
+        color: white;
+        display: flex;
+        font-family: 'Trebuchet MS';
+    }
+    fieldset{
+        margin-top: 3px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 13px;
+        color: white;
+        background-color: gray;
+    }
+    .chat{
+        width: 60%;
+        height: 150px;
+        margin-top: 3px;
+        background-color: rgb(166, 161, 161);
+    }
+    .nome{
+        width: 30%;
+        background-color: rgb(166, 161, 161);
+    }
+    .email{
+        width: 50%;
+        background-color: rgb(166, 161, 161);
+    }
+    .botão{
+        border: 2px solid black
+    }
+    </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contatos - Bethesda Softworks info Site</title>
+</head>
+<body>
+    <h1>CONTATOS</h1>
+    <div class="imagens">
+    <a href="https://www.instagram.com/explore/locations/1012696624/bethesda-softworks/" target="_blank"><img src="https://png.pngtree.com/png-vector/20221018/ourmid/pngtree-instagram-social-platform-icon-png-image_6315976.png" alt="Insta_Logo" 
+    style="width:42px;height:42px;"></a>
+    <a href="https://twitter.com/bethesda" target="_blank"><img src="images/twitter.png" alt="Twitter_Logo" 
+    style="width:42px;height:42px;"></a>
+    <a href="www.youtube.com/Bethesda Softworks" target="_blank"><img src="images/yt.png" alt="Yt_Logo" 
+    style="width:42px;height:42px;"></a>
+    <h4>Como você deseja entrar em contato?</h4>
+    </div>
+</div>
+    <form>
+        <fieldset>
+            <div>
+                <label>Informe seu nome</label>
+                <input class="nome" type="text" name="Seu nome" id="nome" placeholder="seu nome">
+                <label>Email</label>
+                <input class="email" type="email" name="Seu e-mail" id="e-mail" placeholder="seu e-mail">
+            </div>
+            <div>
+    <label>Que tipo de mensagem você deseja enviar?</label>
+        <label>
+            <input type="radio" name="msg1" value="msg de pedido">Mensagem de pedido
+        </label>
+        <label>
+            <input type="radio" name="msg1" value="msg de resposta">Mensagem de resposta
+        </label>
+        <label>
+            <input type="radio" name="msg1" value="msg de reclamação">Mensagem de reclamação
+        </label>
+        <label>
+            <input type="radio" name="msg1" value="outra msg">Outro (especificar)
+        </label>
+        <label>
+            <input type="text" name="chat" placeholder="Digite aqui..." class="chat">
+        </label>
+        <label>
+            <input type="submit" name="enviar" class="botão">
+        </label>
+        </fieldset>
+    </form>
+</div>
+</body>
+</html>
